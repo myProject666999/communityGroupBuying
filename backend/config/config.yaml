@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password: 123456
+  dbname: community_group_buying
+  charset: utf8mb4
+
+jwt:
+  secret: community-group-buying-secret-key-2024
+  expire: 24
